@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Long+Cang&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap");
+* {
+  background-color: #20254d;
+  font-family: "Bad Script", cursive;
+}
+.nav-bar {
+  background-color: black;
+}
+
+.nav-link {
+  color: white;
+  font-size: 1.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.nav-link:active {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #52cbff;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 3em;
+  font-family: "Long Cang", cursive;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+.navbar-brand:active {
+  color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+.title {
+  height: 80vh;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+h1 {
+  color: white;
+  text-align: left;
+  margin-left: 5vh;
+  margin-top: 10vh;
+  font-size: 10vh;
+}
+
+.board {
+  margin-top: 5vh;
+}
+
+#scroll {
+  display: none;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: white;
+  text-align: center;
+}
+
+.animation-fadeIn {
+  animation: fadeIn 20s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0%;
+    display: none;
+  }
+
+  100% {
+    opacity: 100%;
+    display: block;
+  }
+}
+
+h2 {
+  color: white;
+  margin-top: 5vh;
+  margin-left: 5vh;
+}
+
+.intro-board h2 {
+  color: white;
+  margin: 1em;
+  background-color: transparent;
+}
+
+.intro-board {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 1em;
+  color: white;
+  overflow: hidden;
+  box-shadow: 0 0 0.3em 0.3em rgba(0, 0, 0, 0.3);
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.intro-board p {
+  background-color: transparent;
+  margin: 1em;
+  font-size: 1.2em;
+  line-height: 1.8em;
+}
+
+#profilepic {
+  height: 20em;
+  border-radius: 10em;
+  margin-right: 2em;
+  box-shadow: 0.1em 0.1em shadow-black;
+  display: block;
+  float: right;
+}
+
+.card-left {
+  width: 95%;
+  background-color: rgba(255, 255, 255, 0.35);
+  display: grid;
+  grid-template-columns: 75% 20%;
+  border: black 2px;
+  border-radius: 0 2em 2em 0;
+  padding: 1em;
+  transition: 0.5s;
+}
+
+.card-right {
+  margin-left: 5%;
+  width: 95%;
+  background-color: rgba(255, 255, 255, 0.35);
+  display: grid;
+  grid-template-columns: 25% 75%;
+  border: black 2px;
+  border-radius: 2em 0 0 2em;
+  padding: 1em;
+  transition: 0.5s;
+}
+
+.card:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  scale: 1.02;
+}
+
+.card table {
+  background-color: transparent;
+  width: 100%;
+}
+
+.card table tr {
+  background-color: transparent;
+}
+.card table td {
+  background-color: transparent;
+  color: black;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+}
+
+.card table .thead {
+  text-align: right;
+  padding-right: 0.5em;
+}
+
+.card .basic-box {
+  background-color: transparent;
+}
+
+.card .box-1 span {
+  background-color: transparent;
+  display: inline-block;
+  text-align: center;
+  font-size: 2em;
+  margin-top: 20%;
+}
+
+.card .box-2 {
+  font-size: 1.2em;
+}
+
+.card .box-1-right span {
+  background-color: transparent;
+  display: inline-block;
+  text-align: center;
+  font-size: 2em;
+  margin-top: 20%;
+  margin-left: 10%;
+}
+
+.card .box-2-right {
+  background-color: transparent;
+  color: black;
+  margin-right: 5%;
+}
+
+.card .box-2-right h3 {
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+.card .box-2-right p {
+  background-color: transparent;
+  line-height: 0.6em;
+}
+
+.card .box-2-right ul {
+  background-color: transparent;
+}
+.card .box-2-right ul li {
+  background-color: transparent;
+  margin-bottom: 0.5em;
+}
+.card .box-2-right a {
+  background-color: transparent;
+  color: black;
+  text-decoration: none;
+}
+.card .box-2-right a:hover {
+  color: orange;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.card .box-2-left {
+  background-color: transparent;
+  color: black;
+  margin-left: 5%;
+}
+
+.card .box-2-left h3 {
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+.card .box-2-left p {
+  background-color: transparent;
+  line-height: 0.6em;
+}
+
+.card .box-2-left ul {
+  background-color: transparent;
+}
+.card .box-2-left ul li {
+  background-color: transparent;
+}
+.card .box-2-left a {
+  background-color: transparent;
+  color: black;
+  text-decoration: none;
+}
+.card .box-2-left a:hover {
+  color: orange;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.iconimg {
+  background-color: transparent;
+  height: 4em;
+  display: block;
+  margin-top: 15%;
+  margin-left: 25%;
+}
+
+.footer {
+  margin-top: 5%;
+  color: white;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}
+
+.iconbox {
+  margin: 1em;
+  background-color: transparent;
+}
+
+#linkicon {
+  height: 5vh;
+  width: 5vh;
+  margin: 0.5em;
+}
+
+/* Bar Graph Horizontal */
+.bar-graph .skill {
+  -webkit-animation: fade-in-text 2.2s 0.1s forwards;
+  -moz-animation: fade-in-text 2.2s 0.1s forwards;
+  animation: fade-in-text 2.2s 0.1s forwards;
+  opacity: 0;
+}
+
+.bar-graph-horizontal {
+  max-width: 100%;
+}
+
+.bar-graph-horizontal > div {
+  float: left;
+  margin-bottom: 8px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.bar-graph-horizontal .skill {
+  float: left;
+  margin-top: 18px;
+  background-color: transparent;
+}
+
+.bar-graph-horizontal .skillbar {
+  border-radius: 3px;
+  height: 4.5vh;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  width: 0;
+}
+
+.bar-graph-one .skillbar::after {
+  -webkit-animation: fade-in-text 2.2s 0.1s forwards;
+  -moz-animation: fade-in-text 2.2s 0.1s forwards;
+  animation: fade-in-text 2.2s 0.1s forwards;
+  color: #fff;
+  content: attr(data-percentage);
+  font-weight: 700;
+  position: absolute;
+  right: 16px;
+  top: 17px;
+}
+
+.bar-graph-one .bar-one .skillbar {
+  background-color: #64b2d1;
+  -webkit-animation: show-bar-one 1.2s 0.1s forwards;
+  -moz-animation: show-bar-one 1.2s 0.1s forwards;
+  animation: show-bar-one 1.2s 0.1s forwards;
+}
+
+/* Bar Graph Horizontal Animations */
+@-webkit-keyframes show-bar-one {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes fade-in-text {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.bar-graph-one .bar-one .skillbar:hover {
+  background-color: orange;
+  scale: 1.02;
+  transition: 0.3s;
+}

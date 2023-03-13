@@ -1,0 +1,18 @@
+.board-left {
+  margin-top: 2em;
+  /*animation: 3s float_in_left;*/
+}
+
+@keyframes float_in_left {
+  0% {
+    opacity: 10%;
+    transform: translate(-100%, 0%);
+    display: block;
+  }
+
+  100% {
+    opacity: 100%;
+    transform: translate(0%, 0%);
+    display: block;
+  }
+}
